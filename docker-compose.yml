@@ -7,5 +7,7 @@ services:
     user: root
     ports:
       - 8085:8085
+    env_file:
+      - .env
     volumes:
       - .:/home/src
