@@ -4,6 +4,7 @@ services:
   jupyter_service:
     build: .
     entrypoint: "scripts/docker-entrypoint.sh"
+    user: root
     ports:
       - 8085:8085
     volumes:
