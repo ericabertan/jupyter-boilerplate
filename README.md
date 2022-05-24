@@ -17,15 +17,19 @@
 
 - Starting the container:
 
-`$ docker-compose up`
+`$ make up`
 
 - Stopping the container:
 
-`$ docker-compose down`
+`$ make down`
 
 - Building the image
 
-`$ docker-compose build` 
+`$ make build` 
+
+- Accessing the container shell
+
+`$ make shell` 
 
 ### Adding new libs
 
